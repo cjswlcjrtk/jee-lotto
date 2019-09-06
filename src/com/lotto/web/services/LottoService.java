@@ -7,7 +7,6 @@ public interface LottoService {
 	public String createLottoSeq();
 	public String createBall();
 	public String createLotteryNum();
-//	public int[] duplicatePrevention(int arr);
-//	public String ascendingSort(int[] arr);
-//	
+	public boolean exist(int[] arr, int a);
+	public int[] bubbleSort(int[] arr, boolean flag);
 }
